@@ -35,7 +35,16 @@ public class Hote extends Membre {
     public void setIsHote(Boolean isHote) {
         this.isHote = isHote;
     }
+
+    @Override
+    public String toString() {
+        return "Hote{" + "specialites=" + specialites + ", isHote=" + isHote + '}';
+    }
+
     
+    
+    
+   
     
     
     

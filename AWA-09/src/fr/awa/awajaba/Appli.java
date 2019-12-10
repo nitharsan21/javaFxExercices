@@ -167,8 +167,12 @@ public class Appli extends Application {
                    m.getHote().getSpecialites().add(new Specialite(i));
                }
                
-               System.out.println(m.getHote().getSpecialites());
-              
+               System.out.println(" nom : "+m.getHote().getNom()+", Prenom: "+ m.getHote().getPrenom()+" , Email :"+ m.getHote().getEmail() );
+               System.out.println("Specialites :");
+              for(Specialite i : m.getHote().getSpecialites()){
+                System.out.println(i.getSepecialite());
+              }
+              System.out.println(m.getHote().toString());
             
         });
         

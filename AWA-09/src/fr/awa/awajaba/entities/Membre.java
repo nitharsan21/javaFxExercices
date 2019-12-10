@@ -33,6 +33,8 @@ public abstract class Membre {
         this.nom = nom;
     }
 
+   
+
     public String getPrenom() {
         return prenom;
     }
@@ -48,9 +50,13 @@ public abstract class Membre {
     public void setEmail(String email) {
         this.email = email;
     }
+    
+    
 
-
-   
+    @Override
+    public String toString() {
+        return "Membre{" + "identifiant=" + identifiant + ", nom=" + nom + ", prenom=" + prenom + ", email=" + email + '}';
+    }
 
    
    

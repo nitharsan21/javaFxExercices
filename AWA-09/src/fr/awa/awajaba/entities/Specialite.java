@@ -27,7 +27,13 @@ public class Specialite {
     public void setSepecialite(String sepecialite) {
         this.sepecialite = sepecialite;
     }
+
+    @Override
+    public String toString() {
+        return "Specialite{" + "sepecialite=" + sepecialite + '}';
+    }
    
+    
     
     
     
